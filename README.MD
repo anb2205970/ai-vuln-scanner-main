@@ -1,6 +1,6 @@
 Installation:
 1. Clone the repository: git clone https://github.com/anb2205970/ai-vuln-scanner-main
-2. cd AI-Vuln-Scanner
+2. cd ai-vuln-scanner-main
 3. Set up the environment: python3 -m venv .venv
 4. source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 5. pip install -r requirements.txt
