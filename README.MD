@@ -10,10 +10,6 @@ Installation:
 6. Run the scanner: python vuln_scanner.py
 
 Usage:
-1. Start the scanner: python vuln_scanner.py  
+1. Start the app: streamlit run app.py.
 2. Enter the target URL when prompted.
 
-Workflow:
-1. Run Scans: Checks for SQL Injection, XSS, CSRF, and SSRF.
-2. View Results: Displays vulnerabilities found.
-3. AI Analysis: Provides impact assessment and prioritization.
