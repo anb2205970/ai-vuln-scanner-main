@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+<!DOCTYPE niktoscan SYSTEM "/usr/share/doc/nikto/nikto.dtd">
+<niktoscan hoststest="0" options="-h http://www.ctu.edu.vn:443 -Tuning 12345789abc -o nikto_output.xml -Format xml" version="2.1.5" scanstart="Wed Aug 13 12:48:08 2025" scanend="Thu Jan  1 08:00:00 1970" scanelapsed=" seconds" nxmlversion="1.2">
+
+<scandetails targetip="123.30.143.225" targethostname="www.ctu.edu.vn" targetport="443" targetbanner="" starttime="2025-08-13 12:48:08" sitename="https://www.ctu.edu.vn:443" siteip="https://123.30.143.225:443" hostheader="www.ctu.edu.vn" errors="0" checks="0">
+<ssl ciphers="ECDHE-RSA-AES256-GCM-SHA384" issuers="/C=BE/O=GlobalSign nv-sa/CN=GlobalSign RSA OV SSL CA 2018" info="/C=VN/ST=CAN THO/L=CAN THO/O=CAN THO UNIVERSITY/CN=*.ctu.edu.vn" />
+
+<item id="999984" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Server leaks inodes via ETags, header found with file /, fields: 0xfd382a4e1656a6b581cf1c7cc58a4fe2 ]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999976" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[The anti-clickjacking X-Frame-Options header is not present.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999100" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Uncommon header 'permissions-policy' found, with contents: interest-cohort=()]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie 55445c2f41f8c1d2550ab81ab0db641f created without the secure flag]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie 55445c2f41f8c1d2550ab81ab0db641f created without the httponly flag]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie BNES_55445c2f41f8c1d2550ab81ab0db641f created without the secure flag]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie BNES_55445c2f41f8c1d2550ab81ab0db641f created without the httponly flag]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<item id="999100" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Uncommon header 'x-frame-options' found, with contents: SAMEORIGIN]]></description>
+<uri><![CDATA[/administrator/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/administrator/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/administrator/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie a5a6e4f1c565ca99e91fad05fac8e7fb created without the secure flag]]></description>
+<uri><![CDATA[/administrator/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/administrator/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/administrator/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie a5a6e4f1c565ca99e91fad05fac8e7fb created without the httponly flag]]></description>
+<uri><![CDATA[/administrator/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/administrator/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/administrator/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie BNES_a5a6e4f1c565ca99e91fad05fac8e7fb created without the secure flag]]></description>
+<uri><![CDATA[/administrator/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/administrator/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/administrator/]]></iplink>
+</item>
+
+<item id="999960" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Cookie BNES_a5a6e4f1c565ca99e91fad05fac8e7fb created without the httponly flag]]></description>
+<uri><![CDATA[/administrator/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/administrator/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/administrator/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/administrator/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//administrator/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//administrator/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//administrator/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/bin/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//bin/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//bin/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//bin/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/cache/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//cache/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//cache/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//cache/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/cli/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//cli/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//cli/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//cli/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/components/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//components/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//components/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//components/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/includes/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//includes/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//includes/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//includes/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/language/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//language/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//language/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//language/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/layouts/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//layouts/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//layouts/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//layouts/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/libraries/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//libraries/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//libraries/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//libraries/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/modules/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//modules/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//modules/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//modules/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/plugins/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//plugins/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//plugins/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//plugins/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[File/dir '/tmp/' in robots.txt returned a non-forbidden or redirect HTTP code (200)]]></description>
+<uri><![CDATA[//tmp/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443//tmp/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443//tmp/]]></iplink>
+</item>
+
+<item id="999996" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA["robots.txt" contains 14 entries which should be manually viewed.]]></description>
+<uri><![CDATA[/robots.txt]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/robots.txt]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/robots.txt]]></iplink>
+</item>
+
+<item id="999992" osvdbid="0" osvdblink="http://osvdb.org/0" method="GET">
+<description><![CDATA[Server is using a wildcard certificate: '*.ctu.edu.vn']]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[https://www.ctu.edu.vn:443/]]></namelink>
+<iplink><![CDATA[https://123.30.143.225:443/]]></iplink>
+</item>
+
+<statistics elapsed="10" itemsfound="26" itemstested="0" endtime="2025-08-13 12:48:18" />
+</scandetails>
+
+
+</niktoscan>
