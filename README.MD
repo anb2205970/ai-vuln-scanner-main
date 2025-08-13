@@ -2,7 +2,7 @@ AI-Powered Web Application Vulnerability Scanner
 Overview: A tool that automates the scanning of web applications for common vulnerabilities (like SQL injection, XSS, CSRF, and SSRF) and leverages AI to provide an analysis of the potential impact and suggested remediation steps. This tool aims to be simple to set up and use, targeting penetration testers who need quick, actionable insights without the complexity of larger enterprise solutions.
 
 Installation:
-1. Clone the repository: git clone https://github.com/4xyy/AI-Vuln-Scanner.git
+1. Clone the repository: git clone https://github.com/anb2205970/ai-vuln-scanner-main
 2. cd AI-Vuln-Scanner
 3. Set up the environment: python3 -m venv .venv
 4. source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
